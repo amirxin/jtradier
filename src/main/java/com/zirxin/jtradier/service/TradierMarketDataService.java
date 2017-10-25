@@ -20,7 +20,7 @@ public class TradierMarketDataService implements MarketDataService {
 
     private RestTemplateProvider provider;
 
-    private static final String MARKET_QUOTES_PATH = "/markets/quotes";
+    private static final String MARKET_QUOTES_PATH = "/markets/quotes?";
 
     private static final Logger log = Logger.getRootLogger();
 
